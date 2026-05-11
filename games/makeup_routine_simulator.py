@@ -228,7 +228,20 @@ def main():
         time_left -= 1
     else:
         slow_print("You risk your makeup not staying in place for the whole day. -4 Confidence.")
-        confidence -= 4
+
+        slow_print("\nWould you like to redo your decision??")
+        retry = choose(["Yes", "No"])
+
+        if retry == 1:
+            slow_print("You take a deep breath and choose better.")
+
+            slow_print("\nAlright, that makeup is staying ON! +2 Confidence.")
+            confidence += 2
+            time_left -= 1
+
+        else:
+            slow_print("You accept your fate.")
+            confidence -= 4
 
     slow_print("\nYou put down the spray and stare at your reflection.")
     time.sleep(1)
