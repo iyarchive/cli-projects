@@ -20,3 +20,6 @@ def clean_text(text):
     text = text.lower()
 
     return text
+
+bookreviews["clean_review"] = bookreviews["review"].apply(clean_text)
+bookreviews.to_csv("cleaned_data.csv", index=False)
