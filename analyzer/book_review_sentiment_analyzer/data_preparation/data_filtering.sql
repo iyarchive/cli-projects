@@ -1,5 +1,5 @@
 select
-	  title,
+	title,
   	authors,
   	date_added,
   	last_date_read,
