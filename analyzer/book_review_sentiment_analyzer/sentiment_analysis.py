@@ -4,7 +4,6 @@ bookreviews = pd.read_csv("cleaned_data.csv")
 
 print(bookreviews.columns)
 
-
 def analyze_review(review):
 
     positive_words = [
