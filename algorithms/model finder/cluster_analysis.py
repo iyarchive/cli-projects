@@ -1,4 +1,4 @@
-# cluster analysis brute force search algorithm
+# Cluster Analysis brute force search
 
 X_cluster = df[["PC1", "PC2"]].copy()
 
