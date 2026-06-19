@@ -1,3 +1,6 @@
+import time
+from utils import slow_print, choose
+
 def apply_primer():
 
     slow_print("\nDo you apply primer?")
@@ -19,6 +22,8 @@ def apply_primer():
 
     slow_print(f"\nConfidence: {confidence}")
     slow_print(f"Time left: {time_left}")
+    
+    return confidence, time_left
 
 def apply_foundation():
 
@@ -50,6 +55,8 @@ def apply_foundation():
     slow_print(f"\nConfidence: {confidence}")
     slow_print(f"Time left: {time_left}")
 
+    return confidence, time_left
+
 def apply_concealer():
 
     slow_print("\nDo you apply concealer?")
@@ -79,6 +86,8 @@ def apply_concealer():
     slow_print(f"\nConfidence: {confidence}")
     slow_print(f"Time left: {time_left}")
 
+    return confidence, time_left
+
 def apply_blush():
 
     slow_print("\nDo you apply blush?")
@@ -94,6 +103,8 @@ def apply_blush():
 
     slow_print(f"\nConfidence: {confidence}")
     slow_print(f"Time left: {time_left}")
+
+    return confidence, time_left
 
 def apply_contour():
 
@@ -111,6 +122,8 @@ def apply_contour():
     slow_print(f"\nConfidence: {confidence}")
     slow_print(f"Time left: {time_left}")
 
+    return confidence, time_left
+
 def apply_highlighter():
 
     slow_print("\nDo you apply highlighter?")
@@ -125,6 +138,8 @@ def apply_highlighter():
 
     slow_print(f"\nConfidence: {confidence}")
     slow_print(f"Time left: {time_left}")
+
+    return confidence, time_left
 
 def apply_brows():
 
@@ -142,6 +157,8 @@ def apply_brows():
     slow_print(f"\nConfidence: {confidence}")
     slow_print(f"Time left: {time_left}")
 
+    return confidence, time_left
+
 def apply_eyeshadow():
 
     slow_print("\nDo you apply eyeshadow?")
@@ -157,6 +174,8 @@ def apply_eyeshadow():
 
     slow_print(f"\nConfidence: {confidence}")
     slow_print(f"Time left: {time_left}")
+
+    return confidence, time_left
 
 def apply_mascara():
 
@@ -174,6 +193,8 @@ def apply_mascara():
     slow_print(f"\nConfidence: {confidence}")
     slow_print(f"Time left: {time_left}")
 
+    return confidence, time_left
+
 def apply_lipstick():
 
     slow_print("\nDo you apply lipstick?")
@@ -189,6 +210,8 @@ def apply_lipstick():
 
     slow_print(f"\nConfidence: {confidence}")
     slow_print(f"Time left: {time_left}")
+
+    return confidence, time_left
 
 def apply_setting_spray():
 
@@ -215,3 +238,5 @@ def apply_setting_spray():
         else:
             slow_print("You accept your fate.")
             confidence -= 4
+
+    return confidence, time_left
