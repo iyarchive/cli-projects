@@ -215,7 +215,7 @@ def apply_lipstick(confidence, time_left):
 
 def apply_setting_spray(confidence, time_left):
 
-    slow_print("\nDo you apply primer?")
+    slow_print("\nDo you apply setting spray?")
     choice = choose(["Yes", "No"])
 
     if choice == 1:
