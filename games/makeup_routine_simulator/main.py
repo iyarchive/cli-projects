@@ -1,3 +1,4 @@
+import time
 from utils import slow_print
 from steps import (
     apply_primer,
@@ -5,7 +6,7 @@ from steps import (
     apply_concealer,
     apply_blush,
     apply_contour,
-    apply_highligher,
+    apply_highlighter,
     apply_brows,
     apply_eyeshadow,
     apply_mascara,
