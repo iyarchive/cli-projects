@@ -1,7 +1,7 @@
 import time
 from utils import slow_print, choose
 
-def apply_primer():
+def apply_primer(confidence, time_left):
 
     slow_print("\nDo you apply primer?")
     choice = choose(["Yes", "No"])
@@ -25,7 +25,7 @@ def apply_primer():
     
     return confidence, time_left
 
-def apply_foundation():
+def apply_foundation(confidence, time_left):
 
     slow_print("\nDo you apply foundation?")
     choice = choose(["Yes", "No"])
@@ -57,7 +57,7 @@ def apply_foundation():
 
     return confidence, time_left
 
-def apply_concealer():
+def apply_concealer(confidence, time_left):
 
     slow_print("\nDo you apply concealer?")
     choice = choose(["Yes", "No"])
@@ -88,7 +88,7 @@ def apply_concealer():
 
     return confidence, time_left
 
-def apply_blush():
+def apply_blush(confidence, time_left):
 
     slow_print("\nDo you apply blush?")
     choice = choose(["Yes", "No"])
@@ -106,7 +106,7 @@ def apply_blush():
 
     return confidence, time_left
 
-def apply_contour():
+def apply_contour(confidence, time_left):
 
     slow_print("\nDo you apply contour?")
     choice = choose(["Yes", "No"])
@@ -124,7 +124,7 @@ def apply_contour():
 
     return confidence, time_left
 
-def apply_highlighter():
+def apply_highlighter(confidence, time_left):
 
     slow_print("\nDo you apply highlighter?")
     choice = choose(["Yes", "No"])
@@ -141,7 +141,7 @@ def apply_highlighter():
 
     return confidence, time_left
 
-def apply_brows():
+def apply_brows(confidence, time_left):
 
     slow_print("\nDo you fill in your brows?")
     choice = choose(["Yes", "No"])
@@ -159,7 +159,7 @@ def apply_brows():
 
     return confidence, time_left
 
-def apply_eyeshadow():
+def apply_eyeshadow(confidence, time_left):
 
     slow_print("\nDo you apply eyeshadow?")
     choice = choose(["Yes", "No"])
@@ -177,7 +177,7 @@ def apply_eyeshadow():
 
     return confidence, time_left
 
-def apply_mascara():
+def apply_mascara(confidence, time_left):
 
     slow_print("\nDo you apply mascara?")
     choice = choose(["Yes", "No"])
@@ -195,7 +195,7 @@ def apply_mascara():
 
     return confidence, time_left
 
-def apply_lipstick():
+def apply_lipstick(confidence, time_left):
 
     slow_print("\nDo you apply lipstick?")
     choice = choose(["Yes", "No"])
@@ -213,7 +213,7 @@ def apply_lipstick():
 
     return confidence, time_left
 
-def apply_setting_spray():
+def apply_setting_spray(confidence, time_left):
 
     slow_print("\nDo you apply primer?")
     choice = choose(["Yes", "No"])
