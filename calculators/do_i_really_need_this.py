@@ -1,7 +1,9 @@
-print("Are you hesitating if you should buy that item or not?"
+print(
+      "Are you hesitating if you should buy that item?"
       "\nWell, you should try our calculator to calculate how"
       " many hours or days of work you have to do to earn"
-      " that item. Best of luck!")
+      " that item. Best of luck!"
+)
 
 while True:
 
